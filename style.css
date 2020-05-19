@@ -1,0 +1,315 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #f1f3f4;
+	font-family: sans-serif;
+}
+.top-nav-bar{
+	height: 57px;
+	top: 0;
+	position: sticky;
+	background: #fff;
+	margin-bottom: 20px;
+	border-bottom: 3px solid orange;
+	z-index: 2
+}
+.logo{
+	height: 40px;
+	margin: 5px 10px;
+}
+.form-control{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid orange !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	box-shadow: none !important;
+}
+.input-group-text{
+    background: orange !important;
+	margin: 8.5px 10px 3px 0 !important;
+	border: 1px solid orange !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-top-right-radius: 20 !important;
+	border-bottom-right-radius: 20 !important;
+	cursor: pointer;
+}
+.search-box{
+	display: inline-flex;
+	width: 60%;
+}
+.logo{
+	color: orange;
+}
+.fa-search{
+	color: #fff;
+}
+.menu-bar{
+	width: 40%;
+	height: 57px;
+	float: right;
+}
+.menu-bar ul{
+	display: inline-flex;
+	float: right;
+}
+.menu-bar ul li{
+	border-left: 1px solid #fff;
+	list-style-type: none;
+	padding: 15px 35px;
+	text-align: center;
+	background-color: orange;
+	cursor: pointer;
+}
+.menu-bar ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.menu-bar ul li:hover{
+	background: #f8ac40;
+	border-radius: 3px;
+}
+.fa-shopping-basket{
+	margin-right: 5px;
+}
+.top-second-nav-bar{
+	width: 100%;
+	height: 60px;
+}
+.top-second-nav-bar a{
+	background-color: orange;
+	padding-right:5px;
+	padding-left: 5px; 
+    display: inline-flex;
+    margin: 10px 25px; 
+    border-radius: 2px solid #fff;
+    text-decoration: none;
+}
+.nav-link{
+	font-size: 16px;
+	color: #fff !important;
+	margin: 2px;
+}
+.navbar-nav{
+	text-align: right;
+}
+.navbar-brand{
+	color: #fff;
+	font-size: 20px;
+}
+.image-text img{
+	margin-top: 22px;
+	margin-left: 150px;
+	height: 150px;
+	width: 100px;
+}
+.image-text h2{
+	 color: blue; 	 
+}
+.image-text p{
+	top: 20px;
+	color:#555;
+}
+.image-box1{
+	background: #f1f3f6;
+}
+.client{
+	background: orange;
+	padding: 40px;
+	text-align: center;
+}
+.client .imgBx{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	 
+}
+.client .imgBx img{
+	margin-top: 20px;
+	margin-left: 350px;
+}
+/*----services-----*/
+#services{
+	background-image:url('virus.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container h1{
+	text-align: center;
+}
+#services h3{
+	margin-left: 20px;
+	font-size: 32px;
+	text-align: center;
+	color: #efefef !important;
+	padding-top: 20px;
+}
+ 
+.services{
+	margin-top: 40px;
+}
+ 
+#services p{
+	font-size: 20px;
+	margin-top: 20px;
+	color: #ccc;
+}
+.boom img{
+	height: 400px;
+	width: 500px;
+}
+.boom .btn-warning{
+	color: #fff;
+	font-size: 22px;
+}
+/*----------products-----------*/
+.fashion-blog{
+	margin: 250px 0 150px 0;
+}
+.blog-img{
+	margin-top: 50px;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+.blog-img img{
+	width: 90%;
+	height: 70%;
+}
+.fashion-blog h5{
+	color: orange;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.title-style h1{
+	color: orange;
+	font-size: 55px;
+	line-height: 70px;
+	padding: 0px 10px 0 10px;
+}
+.blog-img h4{
+	margin-left: 20px;
+	color: #555;
+	border-radius: 2px solid #555;
+	border: 
+}
+.blog-img h6{
+     color: green;
+}
+/*--paragraph--*/
+.paragraph{
+	background-color: #555;
+	padding: 20px;
+	height: 600px;
+}
+.paragraph p{
+	font-size: 18px;
+	display: initial;
+	color: #fff;
+}
+.paragraph p span{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	color: orange;
+}
+
+/*----footer----------*/
+
+ .footersection{
+ 	width: 100%;
+ 	height: auto;
+ 	padding: 70px 0 20px 0;
+ 	background: #00abff;
+ 	position: relative;
+ }
+
+ .footersection p{
+ 	color: #fff;
+ }
+
+ .footersection li a{
+ 	font-size: 0.9rem;
+ 	line-height: 1.6;
+ 	font-weight: 400;
+ 	color: #fff;
+ 	text-transform: capitalize;
+ 	text-align: center;
+ }
+
+ .footersection h3{
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	margin-bottom: 25px;
+ 	font-size: 1.2rem!important;
+ 	font-weight: bold;
+ 	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+ }
+
+.footer{
+	margin-top: 150px;
+	background: #f5f6fc;
+}
+.payment, .insta-img, .app-download{
+	margin: 50px auto;
+}
+.app-download li a{
+	color: #555;
+	font-size: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+.insta-img li a{
+	color: #555;
+	font-size: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+.payment li a{
+	color: #555;
+	font-size: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+	 
+.footer h5{
+	margin-top: -20px;
+	margin-bottom: 50px;
+	color: orange;
+	font-size: 32px;
+}
+.footer h5::before{
+	content: '';
+	width: 70px;
+	height: 3px;
+	background: #4f74e8;
+	top: 75px;
+	position: absolute;
+}
+.footer-icons{
+	text-align: right;
+}
+.footer-icons .fa{
+	color: orange;
+	margin: 0 10px auto;
+	font-size: 20px;
+	cursor: pointer;
+}
+.fa-heart{
+	color: orange;
+}
